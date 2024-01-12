@@ -10,10 +10,17 @@ public class Demo
 	{
 		System.out.println("M1---B");
 	}
+	public static void m3()
+	{
+		System.out.println("M1---c");
+	}
+	
 	public static void main(String[] args) 
 	{
 		
 		Demo.m1();
+		Demo.m2();
+		Demo.m3();
 	}
 
 }

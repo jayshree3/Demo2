@@ -18,6 +18,10 @@ public class Demo
 	{
 		System.out.println("M1---D");
 	}
+	public static void m5()
+	{
+		System.out.println("M1---D");
+	}
 	
 	public static void main(String[] args) 
 	{
@@ -26,6 +30,7 @@ public class Demo
 		Demo.m2();
 		Demo.m3();
 		Demo.m4();
+		Demo.m5();
 	}
 
 }
